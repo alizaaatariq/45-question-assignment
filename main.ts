@@ -1,5 +1,11 @@
-//Question no 2
-//store a person name in a variable amd print a mesaage to them
+// name cases
+// store a person name in a variable and then print that person name in lowerCase , upperCase , tiltleCase
+ let personName : string = "Aliza ";
+ // lowerCase 
+ console.log( personName.toLowerCase());
 
-let personName: string = "Aliza";
-console.log(`hello ${personName} ,would you like to learn some python today  `);
+// upperCase 
+console.log(personName.toUpperCase());
+
+//titleCase 
+console.log(personName.charAt(0). toUpperCase(), personName.slice(1,4));
