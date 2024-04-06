@@ -1,1 +1,3 @@
- console.log(` steven furtick  once said " God doesnt pick people like people pick people , where people see problems God sees potential `)
+let famousePerson : string = "steven furtick ";
+let message : string =  "God doesnt pick people like people pick people , where people see problems God sees potential "
+ console.log(`${famousePerson} once said "${message}`);
