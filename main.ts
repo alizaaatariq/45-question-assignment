@@ -1,3 +1,7 @@
-let famousePerson : string = "steven furtick ";
-let message : string =  "God doesnt pick people like people pick people , where people see problems God sees potential "
- console.log(`${famousePerson} once said "${message}`);
+//Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each
+//character combination, "\t" and "\n", at least once. Print the name once, so the whitespace around the name is displayed. Then print the name after striping the white spaces.
+
+let pname:string = "Aliza\tTariq";
+let fname:string = "Aliza\nTariq";
+console.log(pname);
+console.log(fname);
