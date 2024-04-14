@@ -1,7 +1,15 @@
-//Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each
-//character combination, "\t" and "\n", at least once. Print the name once, so the whitespace around the name is displayed. Then print the name after striping the white spaces.
+//addition 
+let add:number = 4+4;
+console.log(`addition ${add}`);
 
-let pname:string = "Aliza\tTariq";
-let fname:string = "Aliza\nTariq";
-console.log(pname);
-console.log(fname);
+//subtraction 
+let subt:number = 9-1;
+console.log(`subtraction ${subt}`);
+
+//multiplication
+let mult:number = 2*4;
+console.log(`multiplication ${mult}`);
+
+//division 
+let div:number = 16/2;
+console.log(`division ${div}`);
