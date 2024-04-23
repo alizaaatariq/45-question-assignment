@@ -1,2 +1,2 @@
-let transportation: string[]= ["porsch","tesla","range rover"]
-transportation.map((items) => console.log(`i would like to own ${items}`));
+let names:string[]=["alisha","nisha","nazia"]
+names.map((items) => console.log(`hey ${items} you're invited for a dinner `))

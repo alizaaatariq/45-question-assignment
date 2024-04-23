@@ -1,2 +1,2 @@
-var transportation = ["porsch", "tesla", "range rover"];
-transportation.map(function (items) { return console.log("i would like to own ".concat(items)); });
+var names = ["alisha", "nisha", "nazia"];
+names.map(function (items) { return console.log("hey ".concat(items, " you're invited for a dinner ")); });
